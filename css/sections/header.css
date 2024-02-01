@@ -5,4 +5,5 @@
 }
 .nav__center ul li{
     list-style-type: none;
+    display:inline;
 }
