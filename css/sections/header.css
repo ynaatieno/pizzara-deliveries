@@ -6,4 +6,16 @@
 .nav__center ul li{
     list-style-type: none;
     display:inline;
+    padding:0 1em;
+    gap:2em;
+}
+.nav__right{
+padding: 0 1em;
+gap:2em
+}
+.nav__container2{
+    padding-top: 50px;
+}
+.container2__head{
+    padding-top: 20px;
 }
