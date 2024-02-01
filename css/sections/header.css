@@ -1,3 +1,8 @@
-*{
-    
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__center ul li{
+    list-style-type: none;
 }
