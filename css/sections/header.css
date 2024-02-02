@@ -18,10 +18,13 @@
 }
 .hero__left h1 {
   padding-top: 20px;
-  font-size: larger;
+  font-size:larger;
   justify-content: space-between;
 }
 .hero__left__paragraph{
     padding-top:30px;
+}
+.nav__center ul li :hover{
+    background-color: #EEA534;
 }
 
