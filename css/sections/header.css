@@ -7,6 +7,7 @@
   display: inline;
   padding: 0 1em;
   gap: 2em;
+  color:black;
 }
 .nav__right {
   display: flex;
@@ -36,7 +37,6 @@
     background-color: black;
     color:white;
     border-radius:border-box;
-    padding:20px;
     
 }
 
