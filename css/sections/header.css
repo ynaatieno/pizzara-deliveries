@@ -28,5 +28,11 @@
     background-color: #EEA534;
     color: white;
 }
-.hero__form
+.hero__form__label{
+    background-color: black;
+    color:white;
+    border-radius:border-box;
+    padding:30px
+    
+}
 
