@@ -1,21 +1,26 @@
-
-.nav__container{
-    display: flex;
-    justify-content: space-between;
+.nav__container {
+  display: flex;
+  justify-content: space-between;
 }
-.nav__center ul li{
-    list-style-type: none;
-    display:inline;
-    padding:0 1em;
-    gap:2em;
+.nav__center ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 1em;
+  gap: 2em;
 }
-.nav__right{
-display: flex;
-gap:2em;
+.nav__right {
+  display: flex;
+  gap: 2em;
 }
-.hero{
-    padding-top: 30px;
-    padding-left:5%;
+.hero {
+  padding-top: 30px;
+  padding-left: 5%;
 }
-
-
+.hero__left h1 {
+  padding-top: 20px;
+  font-size: larger;
+  justify-content: space-between;
+}
+.hero__left__paragraph{
+    padding-top:30px;
+}
