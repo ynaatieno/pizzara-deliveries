@@ -16,9 +16,9 @@
   padding-top: 30px;
   padding-left: 5%;
 }
-.hero__left h1 {
+.hero__header{
   padding-top: 20px;
-  font-size:larger;
+  font-size:60px;
   justify-content: space-between;
 }
 .hero__left__paragraph{
@@ -26,5 +26,7 @@
 }
 .nav__center ul li :hover{
     background-color: #EEA534;
+    color: white;
 }
+.hero__form
 
