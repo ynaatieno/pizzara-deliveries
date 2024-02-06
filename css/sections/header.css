@@ -14,9 +14,11 @@
   display: flex;
   gap: 2em;
 }
-.hero {
+hero{
   padding-top: 30px;
   padding-left: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 .hero__header{
   padding-top: 20px;
@@ -42,9 +44,35 @@
 .hero__form__input{
     border-radius:none;
 }
-.hero__container1{
-  background-color:#F4F7FB;
-  width:10%;
-  height:40vh;
+.hero__image{
+  background-color: black;
 }
-
+.hero__container{
+  display: flex;
+  gap:3em;
+}
+.hero__cutlery{
+  background-color:#F4F7FB;
+  width: 30%;
+  justify-content: center;
+  height: 20vh;
+  align-items: center;
+  
+}
+.hero__pizzasign{
+  background-color: #F4F7FB;
+  width: 30%;
+  justify-content: center;
+  height:20vh;
+  align-items: center;
+}
+.hero__starsign{
+  background-color: #F4F7FB;
+  width: 30%;
+  justify-content: center;
+  height: 20vh;
+  align-items: center;
+}
+.hero__right__image{
+  
+}
