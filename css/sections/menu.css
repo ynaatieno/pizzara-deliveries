@@ -17,3 +17,25 @@
     width: 100%;
     margin: 2.5em 0;
 }  
+.image__button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+}
+.bbq__image{
+    background-color:#F4F7FB ;
+border-radius: 20px;
+}
+.button__menu{
+    background-color: #eea539;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+.image__whyus{
+    margin-top:100px;
+}
