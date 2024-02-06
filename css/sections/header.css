@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 .nav__center ul li {
-  list-style-type: none;
+  list-style-type:none;
   display: inline;
   padding: 0 1em;
   gap: 2em;
@@ -33,8 +33,8 @@ hero{
     color: white;
 }
 .hero__form{
-    border-radius:50px;
-    padding:30px;
+    border-radius:20px;
+    padding:40px;
 }
 .hero__form__label{
     background-color: black;

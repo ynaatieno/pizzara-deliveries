@@ -39,3 +39,10 @@ border-radius: 20px;
 .image__whyus{
     margin-top:100px;
 }
+.fresh-pizza__image{
+    justify-content: flex-end;
+}
+.menu__head{
+    display: flex;
+}
+
