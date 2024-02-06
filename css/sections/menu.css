@@ -7,4 +7,13 @@
 }
 .menu{
     margin-top: 50px;
-}    
+} 
+.category h3:hover{
+    color:#eea539;
+    cursor: pointer;
+} 
+.category-border{
+    border: solid darkgray 1px;
+    width: 100%;
+    margin: 2.5em 0;
+}  
