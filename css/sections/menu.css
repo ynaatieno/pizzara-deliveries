@@ -1,2 +1,10 @@
 
-    
+
+
+.category{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu{
+    margin-top: 50px;
+}    
