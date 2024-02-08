@@ -16,6 +16,10 @@ color: whitesmoke;
     color: whitesmoke;
     padding-top: 50px;
     padding-right: 5%;
+    button{
+        color:white;
+        background-color: #eea235;
+    }
 }
 .footer__contents{
     display: flex;
@@ -31,3 +35,5 @@ color: whitesmoke;
     padding-left:5%;
     padding-top: 70px;
 }
+.footer__container{
+    padding-top:90px;}

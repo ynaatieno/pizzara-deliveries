@@ -73,4 +73,12 @@ height:20vh;
 .why{
     color: #eea539;
 }
+.shop__container{
+    display:flex;
+    justify-content:space-around;
+    padding-right:10%;
+}
+.BBQ__image{
+    
+}
 
