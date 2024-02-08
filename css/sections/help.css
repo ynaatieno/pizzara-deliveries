@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+margin-top: 50px ;
+}
+.help__contents{
+    display:flex;
+    justify-content: space-between;
+}
+.help__mail{
+    border-radius: 20px;
+    background-color:#F4F7FB ;
+}
