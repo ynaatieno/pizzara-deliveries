@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer__contents{
+    background-color: black;
+    height: 50vh;
+}
+.footer__center h1 {
+color: whitesmoke;
+}
+.footer__center h4 {
+    color: whitesmoke;
+}
+.footer__right{
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-right: 5%;
+}
+.footer__contents{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left h3{
+    color: whitesmoke;
+}
+.footer__center{
+    padding-top: 50px;
+}
+.footer__left{
+    padding-left:5%;
+    padding-top: 70px;
+}
