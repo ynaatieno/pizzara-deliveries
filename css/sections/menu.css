@@ -1,5 +1,8 @@
 
-
+*{
+    margin: 0 ;
+    padding: 0;
+}
 
 .category{
     display: flex;
@@ -29,20 +32,50 @@
 .bbq__image{
     background-color:#F4F7FB ;
 border-radius: 20px;
+width: 30%;
+height:20vh;
+
+
+
 }
 .button__menu{
     background-color: #eea539;
     color: white;
-    display: flex;
-    justify-content:center;
+    align-items: center;
+    padding: 1em 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+
+}
+.menu__head{
+    padding-left: 10%;
 }
 .image__whyus{
     margin-top:100px;
 }
-.fresh-pizza__image{
-    justify-content: flex-end;
+.fresh__pizza{
+    display:flex;
 }
-.menu__head{
+ .menu__contents{
+    display:flex;
+ } 
+.menu__head__contents{
+    justify-content:space-evenly;
+    padding-top: 100px;
+    padding-left:10%;
+    background-color:rgb(202, 225, 247);
+}
+.fresh__pizza__image{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fresh__pizza h3 p {
     display: flex;
+    
 }
 

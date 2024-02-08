@@ -33,13 +33,43 @@ hero{
     color: white;
 }
 .hero__form{
-    border-radius:20px;
-    padding:40px;
+  border: solid grey 1px;
+    /* border-radius:20px; */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: .5em 3em;
+    display: flex;
+    align-items: center;
+}
+
+.hero__form input{
+  padding: 2em 5em;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.form-container{
+  display: flex;
+  align-items: center;
+}
+
+.btn-search{
+  padding: 2.7em 3em;
+  background-color: black;
+  color: white;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.fa-solid{
+  font-size: 2rem;
 }
 .hero__form__label{
     background-color: black;
     color:white;
-    border-radius:border-box; 
+padding:2em 2em;
 }
 .hero__form__input{
     border-radius:none;
@@ -60,6 +90,7 @@ hero{
   height: 20vh;
   align-items: center;
   display: flex;
+  flex-direction: column;
 }
 .hero__pizzasign{
   background-color: #F4F7FB;
@@ -68,6 +99,7 @@ hero{
   height:20vh;
   align-items: center;
   display:flex;
+  flex-direction: column;
 }
 .hero__starsign{
   background-color: #F4F7FB;
@@ -76,6 +108,7 @@ hero{
   height: 20vh;
   align-items: center;
   display: flex;
+  flex-direction: column;
 }
 .hero__right{
   padding-left:20px;
