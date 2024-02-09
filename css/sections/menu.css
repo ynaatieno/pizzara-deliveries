@@ -47,8 +47,60 @@
    position: relative;
    left: 50%;
 }
+  .bbq__image{
+    background-color: #F4F7FB;
+    height: 30vh;
+    width:13%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .tandoori__image{
+    background-color: #F4F7FB;
+    height: 30vh;
+    width: 13%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .kebab__image{
+    background-color: #F4F7FB;
+    height:30vh ;
+    width:12%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .menu__contents__left{
+    padding-top:3em;
+  }
+  .menu__contents__right__images-text{
+    background-color: white;
+  }
 .menu__contents__right__h1{
     font-size: 50px;
+}
+.menu__contents__right__images{
+    background-color: #dae7f8;
+    
+}
+.menu__contents__right{
+    
+}
+.help__support{
+    background-color: #F4F7FB;
+    width: 20%;
+    height:20vh;
+    border-radius:10px;
+    text-align: center;
+}
+.help__phone{
+    background-color: #F4F7FB;
+    width: 15%;
+    height: 20vh;
+    border-radius:10px;
+    text-align: center;
+}
+.help__mail{
+    text-align: center;
+    width: 15%;
 }
 .BBQ__image{
     background-color: #F4F7FB;
@@ -99,12 +151,16 @@ background-color: #F4F7FB;
 .menu__contents__right{
     width: 50%;
     padding-top: 50px;
+
 }
+
 .menu__contents__right__images{
     display: flex;
     align-items: center;
     padding: 3rem 0;
+    
 }
+
 .menu__contents__right__images-img{
     background-color: black;
     width: 100px;

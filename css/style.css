@@ -19,7 +19,7 @@
 .container{
     width: 90%;
     margin:0 auto;
-    background-color:#F4F7FB;
+
 }
 .container2{
     width:90%;
@@ -31,7 +31,7 @@
   color:#EEA534;
 }
 @media screen and (max-width:414px){
-  .footer__container{
+  .menu__container{
     
   }
 }
