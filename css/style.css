@@ -23,13 +23,16 @@
 }
 .container2{
     width:90%;
-    margin-left:10px;
+    margin:0 auto;
+
 }
 
 .text__orange{
   color:#EEA534;
 }
 @media screen and (max-width:414px){
-  
+  .footer__container{
+    
+  }
 }
 

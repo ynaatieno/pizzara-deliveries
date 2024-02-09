@@ -36,4 +36,28 @@ color: whitesmoke;
     padding-top: 70px;
 }
 .footer__container{
-    padding-top:90px;}
+    padding-top:90px;
+}
+.footer__form{
+/* border:solid grey; */
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+padding:5em 3em;
+display: flex;
+align-items: center;
+}
+.footer__form input{
+    padding: 2em 5em;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.btn__subscribe{
+    padding: 2em 3em;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius:2px;
+}
+.footer__right__paragraph{
+    font-family: 10px;
+}

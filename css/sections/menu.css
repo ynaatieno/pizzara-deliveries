@@ -27,27 +27,68 @@
 }
 .menu__container{
     display: flex;
-    justify-content: space-between;
-}
-.bbq__image{
-    background-color:#F4F7FB ;
-border-radius: 20px;
-width: 30%;
-height:20vh;
-
-
-
-}
-.button__menu{
-    background-color: #eea539;
-    color: white;
+    justify-content: space-around;
     align-items: center;
-    padding: 1em 1em;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display:flex;
 
+    height: 40vh;
 }
+
+.button__menu{
+   background-color: #eea539;
+   color: white;
+   padding: 2rem 4rem;
+   font-size: 1.2rem;
+   border: none;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-content: center;
+   position: relative;
+   left: 50%;
+}
+.menu__contents__right__h1{
+    font-size: 50px;
+}
+.BBQ__image{
+    background-color: #F4F7FB;
+    width: 20%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pizza__2{
+background-color: #F4F7FB;
+    width: 30%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pizza__4{
+ background-color: #F4F7FB;
+    width: 20%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}   
+.pizza__1{
+  background-color: #F4F7FB;
+    width:20%;
+    height:20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+
+
+
 .menu__contents{
     display:flex;
     justify-content: space-around;
@@ -57,6 +98,7 @@ height:20vh;
 }
 .menu__contents__right{
     width: 50%;
+    padding-top: 50px;
 }
 .menu__contents__right__images{
     display: flex;
@@ -75,10 +117,14 @@ height:20vh;
 }
 .shop__container{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     padding-right:10%;
+    padding-left: 10%;
+    text-align: center;
 }
-.BBQ__image{
-    
+.image{
+justify-content: center;
+padding-bottom: 20%;
 }
+
 
