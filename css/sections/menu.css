@@ -10,6 +10,7 @@
 }
 .menu{
     margin-top: 50px;
+    /* background-color: #dae7f8; */
 } 
 .category h3:hover{
     color:#eea539;
@@ -32,7 +33,6 @@
 
     height: 40vh;
 }
-
 .button__menu{
    background-color: #eea539;
    color: white;
@@ -74,6 +74,9 @@
   .menu__contents__right__images-text{
     background-color: white;
   }
+  .menu__contents__right__content{
+    background-color: #dae7f8;
+  }
 .menu__contents__right__h1{
     font-size: 50px;
 }
@@ -81,9 +84,8 @@
     background-color: #dae7f8;
     
 }
-.menu__contents__right{
-    
-}
+
+
 .help__support{
     background-color: #F4F7FB;
     width: 20%;

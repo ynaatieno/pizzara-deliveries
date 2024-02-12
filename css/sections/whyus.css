@@ -1,0 +1,29 @@
+.whyus{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #f4f7fb;
+    gap:2em;
+}
+.whyus_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.whyus_right .card div:first-child{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whyus_right .card{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+}
