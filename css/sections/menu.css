@@ -3,6 +3,10 @@
     margin: 0 ;
     padding: 0;
 }
+.active{
+    color:#eea539;
+    border-bottom: 3px solid #eea539 ;
+}
 
 .category{
     display: flex;
@@ -12,10 +16,10 @@
     margin-top: 50px;
     /* background-color: #dae7f8; */
 } 
-.category h3:hover{
-    color:#eea539;
-    cursor: pointer;
-} 
+/* .category h3:hover{ */
+    /* color:#eea539; */
+    /* cursor: pointer; */
+/* }  */
 .category-border{
     border: solid darkgray 1px;
     width: 100%;
@@ -184,5 +188,9 @@ background-color: #F4F7FB;
 justify-content: center;
 padding-bottom: 20%;
 }
-
+.picked{
+    display: flex;
+    align-items:center;
+    gap:2rem;
+}
 

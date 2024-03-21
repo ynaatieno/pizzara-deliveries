@@ -36,4 +36,32 @@
     
   }
 }
+.countdown{
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+}
+.cartsection-container{
+  /* width: 200px; */
+  background-color: #EEA534;
+  min-height: 20vh;
+  right:5%;
+  position:absolute;
+  
+}
+.header{
+  position: relative;
+}
+.show__cart{
+  width:500px;
+}
+
+
 
